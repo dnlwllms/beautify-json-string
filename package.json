@@ -1,0 +1,13 @@
+{
+  "name": "pretty-json",
+  "version": "1.0.0",
+  "description": "Beautify json string",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node index.ts",
+    "start": "node dist"
+  },
+  "author": "dnlwllms",
+  "license": "ISC"
+}
