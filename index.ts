@@ -1,4 +1,7 @@
 function beautify(origin: string) {
+  if (!origin) {
+    return "";
+  }
   try {
     const jsonString = JSON.stringify(JSON.parse(origin));
 
@@ -24,7 +27,7 @@ function beautify(origin: string) {
         indent.pop();
         result += `\n${indent.join("")}`;
         result += char;
-      } else if(isBreakPoint(char)) {
+      } else if (isBreakPoint(char)) {
         result += char;
         result += `\n${indent.join("")}`;
       } else {
