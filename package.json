@@ -1,5 +1,5 @@
 {
-  "name": "pretty-json",
+  "name": "beautify-json-string",
   "version": "1.0.0",
   "description": "Beautify json string",
   "main": "dist/index.js",
